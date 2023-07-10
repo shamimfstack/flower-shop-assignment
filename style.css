@@ -10,12 +10,36 @@ body {
 
 p {
     color: #7D7A7B;
+    line-height: 1.8;
 }
 
 /* common styles starts here */
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    display: flex;
+}
+
+main section {
+    padding: 100px 0;
+}
+
+.section-header {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-desc {
+    
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0;
 }
 
 img {
@@ -67,6 +91,73 @@ header {
 
 
 /* banner styles ends here */
+
+
+/* feature section styles starts here */
+.feature-container {
+    margin-top: 20px;
+}
+
+.img-container-1 {
+    background-color: #FD7DCA;
+}
+
+.img-container-2 {
+    background-color: #D9EFF1;
+}
+
+.img-container-3 {
+    background-color: #E3EBDB;
+}
+
+.features {
+    width: 350px;
+    
+    margin: 0 10px;
+}
+
+.features-img-container {
+    padding: 100px 40px 0 40px;
+    border-radius: 50% 50% 0 0;
+}
+
+.feature-img {
+    width: 280px;
+    height: 300px;
+}
+
+.feature-caption {
+    text-align: center;
+    padding-top: 20px;
+    color: #000;
+    text-decoration: underline;
+}
+/* feature section styles ends here */
+
+/* services section styles starts here */
+.services-container {
+    padding: 60px 0;
+}
+
+.services {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    padding: 70px 140px;
+    text-align: center;
+}
+
+.service:not(:last-child) {
+    margin-right: 30px;
+}
+
+.services-img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+/* services section styles ends here */
 
 
 
