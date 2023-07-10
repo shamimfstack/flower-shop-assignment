@@ -53,10 +53,10 @@ img {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
-.commot-text {
+.common-text {
     color: #E55473; 
 }
 /* common styles ends here */
@@ -244,6 +244,36 @@ header {
 
 
 /* instagram section styles ends here */
+
+/* footer section styles starts here */
+footer {
+    background-color: #111010;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.footer-content {
+    
+}
+
+footer h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    width: 650px;
+    margin: 20px auto;
+}
+footer p.copyright-text {
+    color: #707070;
+    font-size: 16px;
+}
+/* footer section styles ends here */
 
 
 
