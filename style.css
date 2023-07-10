@@ -195,5 +195,55 @@ header {
 }
 /* offer section styles ends here */
 
+/* instagram section styles starts here */
+.instagram-content-container {
+    margin-top: 20px;
+}
+
+.instagram-content-container .item {
+    width: 260px;
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-content-container .item img{
+    width: 250px;
+}
+
+.deals-container {
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deals-section-details {
+    text-align: center;
+}
+
+.deals-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.deals-content input[type="email"] {
+    width: 500px;
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* instagram section styles ends here */
+
 
 
