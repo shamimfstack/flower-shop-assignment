@@ -55,6 +55,10 @@ img {
     border-radius: 5px;
     padding: 10px 20px;
 }
+
+.commot-text {
+    color: #E55473; 
+}
 /* common styles ends here */
 
 /* header styles starts here */
@@ -158,6 +162,38 @@ header {
     margin-bottom: 10px;
 }
 /* services section styles ends here */
+
+/* offer section styles starts here */
+.offer-section {
+    background-color: #FEF6F8;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-content {
+    width: 50%;
+    text-align: center;
+}
+
+.offer-content .offer-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.offer-content .offer-desc {
+    margin-bottom: 15px;
+}
+
+.offer-section img {
+    width: 280px;
+    height: 380px;
+}
+/* offer section styles ends here */
 
 
 
