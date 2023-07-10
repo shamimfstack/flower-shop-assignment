@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    color: #7D7A7B;
+}
+
+/* common styles starts here */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.btn-common {
+    background-color: #E55473;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+/* common styles ends here */
+
+/* header styles starts here */
+header {
+    background-color: #FCEEF1;
+    padding-top: 40px;
+
+}
+/* header styles ends here */
+
+/* banner styles starts here */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    padding-right: 80px;
+}
+
+.banner-content-title {
+    font-size: 60px;
+}
+
+.banner-content-desc {
+    padding: 15px 0;
+}
+
+.banner-image img {
+    width: 495px;
+    /* height: 800px; */
+}
+
+
+/* banner styles ends here */
+
+
+
