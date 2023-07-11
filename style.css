@@ -208,9 +208,12 @@ header {
 
 .instagram-content-container .item {
     width: 260px;
-    margin: 0 8px;
     display: flex;
     justify-content: space-between;
+}
+
+.instagram-content-container .item:not(:last-child) {
+    margin-right: 22px;
 }
 
 .instagram-content-container .item img{
@@ -257,8 +260,6 @@ header {
         background-color: rgb(222, 255, 255);
     }
 
-    .feedback-container{}
-
     .feedbacks {
         margin: 20px 0;
     }
@@ -268,6 +269,14 @@ header {
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
+    }
+
+    .feedback-2 {
+        flex-direction: row-reverse;
+    }
+
+    .feedback-2 .feedback-text {
+        margin-right: 15px;
     }
 
     .feedback-img {
